@@ -1,0 +1,156 @@
+.baner{
+	width:100%;
+	background-image: url(../img/banner/piccher.jpg);
+	background-position: center;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height: 1000px;
+	color:white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.baner_menu{position:relative;z-index: 10; padding: 3% 15% 3% 15%;}
+.baner_textLog{position:relative;z-index: 10; padding: 3% 15% 3% 15%;}
+.baner_strip{position:relative;z-index: 10; }
+.baner_slider{position:relative;z-index: 10; padding: 3% 15% 3% 15%;}
+.baner button {position:relative;z-index: 10; }
+.baner_cover{   
+	background: linear-gradient(to bottom, rgba(243,129,129,0.8) 0%, rgba(252,227,136,0.8) 100%);
+	position: absolute;
+	z-index: 0;
+	width:100%;
+	height: 1000px;
+	
+}
+
+
+
+.baner_menu{
+	display: flex;
+	justify-content: space-between;
+}
+.baner_menu ul{
+	display: flex;
+
+
+}
+.baner_menu li{
+	list-style-type: none;
+
+}
+.baner_menu a{
+	margin:10px;
+	text-decoration: none;
+	color:white;
+}
+.baner_menu a:hover{
+	
+	text-decoration: none;
+	color:white;
+	border-bottom: 2px solid #fce38a;
+	padding-bottom: 13px;
+	color:#fce38a;
+}
+
+
+
+
+.baner_textLog{
+
+	text-align: center;
+	
+}
+.baner_textLog h1{
+	text-align: center;
+	font-size: 72px;
+}
+.baner_textLog h2{
+	text-align: center;
+	font-size: 700%;
+}
+
+
+
+.baner_strip{
+	width: 60px;
+	height: 4px;
+	background:white;
+	align-self: center;
+	margin-bottom: 5%;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+.baner button{
+	width: 160px;
+	height: 40px;
+	align-self: center;
+	background: rgba(252,227,136,0.1);
+	border:4px solid white;
+	color:white;
+	font-size: 14px;
+	font-family: Montserrat;
+	
+
+}
+.baner button:hover{
+	box-shadow: 0px 0px 10px -2px black;
+	
+}
+.baner button:active{
+	outline: none;
+	box-shadow: inset 0px 0px 10px -2px black;
+}
+.baner button:focus{
+	outline: none;
+	
+}
+.baner_slider{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+.baner_slider_strip{
+	display: flex;
+	width: 100%;
+	height: 4px;
+	margin-top: 50px;
+
+	
+}
+.baner_slider_strip_red{
+	border-radius: 3px;
+	background: #f38181;
+	height: 4px;
+	width:20%;
+}
+.baner_slider_strip_white{
+	border-radius: 3px;
+	background: white;
+	height: 4px;
+	width:80% ;
+}
+	
+.baner_slider_text{
+	margin-top: 25px;
+	display: flex;
+	
+}
+.baner_slider_items{
+	width: 97%;
+	margin-left: 3%
+}
+.baner_slider_items p{
+	margin-left: 10px;
+	font-family: Montserrat_Regular;
+	margin-top:3px; 
+	font-size: 14px ;
+
+}
+.baner_slider_items h3{
+	
+	font-family: Montserrat_Regular;
+	font-size: 17px ;
+}

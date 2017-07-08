@@ -1,0 +1,27 @@
+.quote{
+	padding: 3% 15% 3% 15%;
+	justify-content: space-between;
+	align-items: center;
+}
+.quote_speech{
+	width: 149px;
+    height: 149px;
+    border: 3px solid #95e1d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.quote_text{
+	width: 60%;
+	max-width: 760px;
+}
+.quote_center{
+	display: flex;
+	justify-content: center;
+}
+.quote_text_open{
+	width: 138px;
+	display: flex;
+	
+}

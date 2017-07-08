@@ -1,0 +1,33 @@
+.fast{
+	display: flex;
+	background: #95e1d3;
+	padding: 0% 15% 0% 15%;
+
+}
+.fast_number{
+	width: 100%;
+	color: white;
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size:50px ;
+	font-family:Montserrat_Regular ;
+	border-left:1px solid white;
+	padding: 3% 0% 3% 0%
+
+}
+.fast_number_right{
+	border-right:1px solid white;
+}
+
+.fast_number h2 {
+	
+	font-size:50px ;
+
+}
+.fast_number p{
+
+	font-size:13px ;
+
+}

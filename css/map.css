@@ -1,0 +1,29 @@
+.map{
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 15% 3% 15%;
+
+}
+.map::after{
+	content:"";
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index:0;
+	height:100%;
+	width:100%;
+	opacity: 0.2;
+	background-repeat: no-repeat;
+	background-size:100% 100%; 
+	background-image: url(../img/map/map_1.jpg); 
+}
+.strip_map{
+	align-self: center;
+	width: 60px;
+	height: 4px;
+	background: #f38181;
+	margin:auto;
+}

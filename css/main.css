@@ -1,0 +1,94 @@
+@import url(banner.css);
+@import url(about_us.css);
+@import url(fact.css);
+@import url(servies.css);
+@import url(feauture.css);
+@import url(service_2.css);
+@import url(quote.css);
+@import url(our_team.css);
+@import url(logos.css);
+@import url(work.css);
+@import url(testimonial.css);
+@import url(what_people_say.css);
+@import url(blog.css);
+@import url(map.css);
+@import url(footer.css);
+*{
+	padding: 0px;
+	margin:0px;
+}
+@font-face {
+    font-family: KaushanScript; /* Имя шрифта */
+    src: url(font/KaushanScript-Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Montserrat; /* Имя шрифта */
+    src: url(font/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Montserrat_Regular; /* Имя шрифта */
+    src: url(font/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Roboto; /* Имя шрифта */
+    src: url(font/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Roboto-Light; /* Имя шрифта */
+    src: url(font/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
+h1{
+	font-family:KaushanScript 
+}
+h2{
+	font-family: Montserrat
+}
+p{
+	font-family: Roboto
+}
+
+.text{
+	
+	margin-top: 10%;
+	color:#333333;
+
+}
+.text h1{text-align: center;font-size: 24px; }
+.text h2{text-align: center; text-transform: uppercase;font-size: 30px; margin-top: 25px;margin-bottom: 6%;}
+.cont_bl{
+	display: flex;
+
+}
+.text_p{
+	margin-bottom: 8%;
+	font-family: Roboto;
+	font-size: 14px;
+	color:#999999;
+}
+.strip{
+	
+	align-self: center;
+	width: 60px;
+	height: 4px;
+	background: #f38181;
+	margin:auto;
+	margin-bottom: 8%;
+}
+.padding{
+	padding: 1.5% 15% 1.5% 15%;
+}
+.footer_botton{
+	text-align: center;
+}
+.footer_botton h3 {
+	font-family:Montserrat_Regular ;
+	font-size:14px ;
+	color: #333333;
+	
+}
+.footer_botton b{
+	font-family:Montserrat_Regular ;
+	font-size:14px ;
+	color: #f38181;
+	
+}
